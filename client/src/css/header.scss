@@ -1,0 +1,28 @@
+$green: #24c975;
+
+@mixin standardSpacing {
+  margin: 5px 10px;
+  padding: 8px 10px;
+}
+
+header {
+  @include standardSpacing;
+  background: #555;
+  color: #fff;
+  nav {
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+    button {
+      background: $green;
+      color: #fff;
+      border: none;
+      @include standardSpacing;
+      cursor: pointer;
+      &:hover {
+        background: darken($green, 15%);
+      }
+    }
+  }
+}
