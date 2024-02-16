@@ -1,0 +1,48 @@
+{
+  "icons": [
+    {
+      "src": "/icon_1024x1024.b66531377a8eace0caa0104f25a512be.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon_512x512.81e60cfe7614f3dc4d06288bc97ca4a8.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.472aea71e7e3fb22d371af33d65adee9.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_256x256.87a658a1d6defd87cd502acd7bf5905e.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.5043ddb4d97f1458c83b98d6bb55d404.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.8b774d5d9a9967d6e49de038647c7850.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.52afeda4626a9261e94a852b28d79f6c.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Webpack Overview",
+  "short_name": "WPOV",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Overview of Webpack!",
+  "background_color": "#ffffff",
+  "theme_color": "#fff"
+}

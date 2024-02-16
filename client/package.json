@@ -4,8 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "build": "NODE_ENV=production webpack",
+    "watch": "NODE_ENV=development webpack serve"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,10 @@
     "sass-loader": "^14.1.0",
     "style-loader": "^3.3.4",
     "webpack": "^5.90.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2",
+    "webpack-pwa-manifest": "^4.3.0",
+    "workbox-webpack-plugin": "^7.0.0"
   },
   "dependencies": {
     "axios": "^1.6.7",
